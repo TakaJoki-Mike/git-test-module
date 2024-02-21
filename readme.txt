@@ -1,4 +1,4 @@
-# API для git issue.
+#API для git issue.
 ## Содержит:
 1. *GET* - у каждого запроса стоит test на проверку status code 200.Так же, в последнем запросе есть test "Response time is less than 200ms". Функция - показывать лист с текущими issue.
 1. *POST* - один запрос, имеет test на проверку status code 201 и test на внесение значения number в variables. Функция - создаёт issue с параметрами body указанными в задании.
